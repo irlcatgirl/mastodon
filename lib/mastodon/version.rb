@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-      ''
+      'catgirl'
     end
 
     def to_a
@@ -33,11 +33,11 @@ module Mastodon
     end
 
     def repository
-      ENV.fetch('GITHUB_REPOSITORY') { 'tootsuite/mastodon' }
+      ENV.fetch('GITHUB_REPOSITORY') { 'nsuchy/mastodon' }
     end
 
     def source_base_url
-      ENV.fetch('SOURCE_BASE_URL') { "https://github.com/#{repository}" }
+      ENV.fetch('SOURCE_BASE_URL') { "https://github.com/#{repository}/tree/production" }
     end
 
     # specify git tag or commit hash here
