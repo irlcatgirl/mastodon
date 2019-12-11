@@ -763,6 +763,8 @@ en:
       more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
       username_available: Your username will become available again
       username_unavailable: Your username will remain unavailable
+      backups: Your account data (this includes your email address (and any emails we've sent you or you've sent us), a history of known IP Addresses (including web server access logs), statuses, direct messages, and media attachments) may still remain in system backups for an indefient period of time.
+      admins_cannot_restore_accounts: Site admins cannot restore individual accounts from system backups. Once an account is deleted it is gone for good.
   directories:
     directory: Profile directory
     explanation: Discover users based on their interests
