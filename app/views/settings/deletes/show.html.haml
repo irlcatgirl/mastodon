@@ -10,11 +10,15 @@
       %li.warning-hint= t('deletes.warning.username_unavailable')
       %li.warning-hint= t('deletes.warning.data_removal')
       %li.warning-hint= t('deletes.warning.caches')
+      %li.warning-hint= t('deletes.warning.backups')
+      %li.warning-hint= t('deletes.warning.admins_cannot_restore_accounts')
     - else
       %li.positive-hint= t('deletes.warning.email_change_html', path: edit_user_registration_path)
       %li.positive-hint= t('deletes.warning.email_reconfirmation_html', path: new_user_confirmation_path)
       %li.positive-hint= t('deletes.warning.email_contact_html', email: Setting.site_contact_email)
       %li.positive-hint= t('deletes.warning.username_available')
+      %li.positive-hint= t('deletes.warning.backups')
+      %li.positive-hint= t('deletes.warning.admins_cannot_restore_accounts')
 
   %p.hint= t('deletes.warning.more_details_html', terms_path: terms_path)
 
