@@ -12,7 +12,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   delegate :contact_account, to: :instance_presenter
 
   def max_toot_chars
-    2000
+    10000
   end
 
   def uri

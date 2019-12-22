@@ -7,7 +7,7 @@ class InitialStateSerializer < ActiveModel::Serializer
   has_one :push_subscription, serializer: REST::WebPushSubscriptionSerializer
 
   def max_toot_chars
-    2000
+    10000
   end
 
   def meta
